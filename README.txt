@@ -1,10 +1,13 @@
-FAUSTINO SMART SECURITY — SITE V6
+FAUSTINO SMART SECURITY — SITE V7
 
-Para GitHub Pages, envie o CONTEÚDO desta pasta para a raiz do repositório:
+Arquivos prontos para GitHub Pages.
+Envie para a raiz do repositório:
 - index.html
 - CNAME
 - robots.txt
 - sitemap.xml
-- pasta assets
+- pasta assets completa
 
-Não envie apenas o ZIP como arquivo do repositório. Extraia e envie os arquivos/pasta.
+IMPORTANTE: não envie somente o ZIP. Extraia e envie os arquivos/pastas.
+Domínio: faustinosmartsecurity.com.br
+WhatsApp: (11) 97738-1522

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520">
+<defs><linearGradient id="g" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#061522"/><stop offset="1" stop-color="#123b5c"/></linearGradient></defs><rect width="800" height="520" rx="30" fill="url(#g)"/>
+<rect x="85" y="175" width="500" height="260" rx="10" fill="#0b2134" stroke="#285d7d" stroke-width="5"/><g stroke="#2c6a8e" stroke-width="9"><path d="M135 185v240M205 185v240M275 185v240M345 185v240M415 185v240M485 185v240M555 185v240"/></g>
+<rect x="585" y="250" width="105" height="110" rx="18" fill="#0a1c2c" stroke="#39c8ff" stroke-width="5"/><circle cx="638" cy="305" r="28" fill="none" stroke="#39c8ff" stroke-width="8"/><path d="M638 277v56M610 305h56" stroke="#39c8ff" stroke-width="7" stroke-linecap="round"/>
+<path d="M600 400h110" stroke="#39c8ff" stroke-width="8" stroke-linecap="round"/><path d="M676 376l34 24-34 24" fill="none" stroke="#39c8ff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="70" y="70" fill="#fff" font-family="Arial" font-size="34" font-weight="700">PORTÕES AUTOMÁTICOS</text><text x="70" y="108" fill="#9edcff" font-family="Arial" font-size="18">Automação, manutenção e segurança no acesso</text>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071a2b"/><stop offset="1" stop-color="#0d3d67"/></linearGradient><radialGradient id="r"><stop stop-color="#39c8ff" stop-opacity=".75"/><stop offset="1" stop-color="#39c8ff" stop-opacity="0"/></radialGradient></defs>
+<rect width="800" height="520" rx="30" fill="url(#g)"/><circle cx="630" cy="120" r="150" fill="url(#r)"/>
+<path d="M70 430V210l170-95 170 95v220" fill="#0b2237" stroke="#1d6da0" stroke-width="5"/><rect x="130" y="260" width="95" height="170" rx="8" fill="#122f49"/><rect x="255" y="245" width="105" height="80" rx="8" fill="#173954"/>
+<g transform="translate(430 115)"><rect x="0" y="55" width="205" height="70" rx="22" fill="#e7f7ff" transform="rotate(-10 100 90)"/><rect x="158" y="70" width="68" height="38" rx="15" fill="#31b8f2" transform="rotate(-10 190 90)"/><circle cx="199" cy="88" r="11" fill="#062035"/><path d="M55 130l-22 85" stroke="#8ecded" stroke-width="16" stroke-linecap="round"/><path d="M31 215h90" stroke="#8ecded" stroke-width="16" stroke-linecap="round"/></g>
+<path d="M515 210c70 20 112 65 125 128M530 184c96 27 154 86 174 174" fill="none" stroke="#39c8ff" stroke-width="6" stroke-linecap="round" opacity=".8"/>
+<text x="70" y="70" fill="#fff" font-family="Arial" font-size="34" font-weight="700">CFTV E CÂMERAS</text><text x="70" y="108" fill="#9edcff" font-family="Arial" font-size="18">Cobertura estratégica e acesso remoto</text>
+</svg>
