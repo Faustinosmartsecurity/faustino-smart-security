@@ -10,6 +10,23 @@
   gtag('config', 'AW-18434301647');
 </script>
 
+<!-- Google Ads conversion event: Clique WhatsApp - Orçamento -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+    'send_to': 'AW-18434301647/oKoLCIuW1_AcEM-91NZE',
+    'event_callback': callback
+  });
+  return false;
+}
+</script>
+
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Faustino Smart Security | Segurança eletrônica em São Paulo</title>
@@ -162,7 +179,17 @@
 const qs=(s)=>document.querySelector(s);
 const scrollAndFill=(el)=>{const local=el.dataset.prefill,svc=el.dataset.service;if(local){const r=[...document.querySelectorAll('input[name="local"]')].find(x=>x.value===local);if(r)r.checked=true}if(svc){const sel=qs('#service');const opt=[...sel.options].find(o=>o.text.toLowerCase().includes(svc.toLowerCase())||svc.toLowerCase().includes(o.text.toLowerCase()));if(opt)sel.value=opt.value}setTimeout(()=>qs('#avaliacao').scrollIntoView({behavior:'smooth'}),10)};
 document.querySelectorAll('[data-prefill],[data-service]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();scrollAndFill(a)}));
-qs('#leadForm').addEventListener('submit',e=>{e.preventDefault();const local=qs('input[name="local"]:checked')?.value||'';const service=qs('#service').value;const situation=qs('#situation').value;const region=qs('#region').value.trim();const details=qs('#details').value.trim();const msg=`Olá, Faustino Smart Security. Vim pelo site e gostaria de solicitar uma avaliação.\n\nLocal: ${local}\nNecessidade: ${service}\nSituação: ${situation}\nRegião: ${region}${details?`\nDetalhes: ${details}`:''}\n\nPodem me orientar sobre o atendimento?`;window.open('https://wa.me/5511977381522?text='+encodeURIComponent(msg),'_blank','noopener')});
+qs('#leadForm').addEventListener('submit',e=>{e.preventDefault();if(typeof gtag_report_conversion==='function'){gtag_report_conversion();}const local=qs('input[name="local"]:checked')?.value||'';const service=qs('#service').value;const situation=qs('#situation').value;const region=qs('#region').value.trim();const details=qs('#details').value.trim();const msg=`Olá, Faustino Smart Security. Vim pelo site e gostaria de solicitar uma avaliação.\n\nLocal: ${local}\nNecessidade: ${service}\nSituação: ${situation}\nRegião: ${region}${details?`\nDetalhes: ${details}`:''}\n\nPodem me orientar sobre o atendimento?`;window.open('https://wa.me/5511977381522?text='+encodeURIComponent(msg),'_blank','noopener')});
 </script>
+
+<script>
+document.addEventListener('click', function (event) {
+  var link = event.target.closest('a[href*="wa.me/5511977381522"]');
+  if (link && typeof gtag_report_conversion === 'function') {
+    gtag_report_conversion();
+  }
+});
+</script>
+
 </body>
 </html>
